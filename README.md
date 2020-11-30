@@ -1,8 +1,14 @@
-<center>
-    <img src="./assets/agencia-eplus-n-logo.png">
-</center><br>
+<div align='center'>
+  <img
+    src="./assets/agencia-eplus-n-logo.png"
+    alt="code_plus"
+    width="300px"
+  />
+</div>
 
-# Treinamento Front end - Code Plus
+<h1 align="center">
+    Treinamento Front end - Code Plus 2020/2021
+</h1>
 
 ### Treinamento com foco em plataformas de e-comerce
 
