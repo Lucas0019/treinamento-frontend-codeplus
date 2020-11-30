@@ -10,7 +10,7 @@
     Treinamento Front end - Code Plus 2020/2021
 </h1>
 
-### Treinamento com foco em plataformas de e-comerce
+### Treinamento com foco em plataformas de e-commerce
 
 - **Status do Repositório:** Em Desenvolvimento
 
