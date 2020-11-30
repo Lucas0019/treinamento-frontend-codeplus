@@ -1,4 +1,6 @@
-<center><img src="./assets/agencia-eplus-n-logo.png"></center><br>
+<center>
+    <img src="./assets/agencia-eplus-n-logo.png">
+</center><br>
 
 # Treinamento Front end - Code Plus
 
