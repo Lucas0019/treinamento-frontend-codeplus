@@ -1,5 +1,6 @@
 //exercicio 02
 //a função deve retornar o nome do pai de acordo com o nome de seu filho passado no segundo parâmetro 
+//Exemplo: passei Clarice, deve retornar Marcos Maia
 
 const parentList = [
     {
