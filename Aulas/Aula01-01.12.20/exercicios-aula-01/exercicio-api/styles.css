@@ -1,0 +1,28 @@
+ul {
+  list-style: none;
+}
+
+p {
+  padding-top: 20px;
+  margin-left: 20px;
+  font-family: "Fira code", bold;
+}
+
+span {
+  color: #07e33e;
+  margin-left: 40px;
+}
+
+#image {
+  float: left;
+
+  justify-content: center;
+}
+
+.item-card {
+  border-top: 10px;
+  width: 400px;
+  height: 150px;
+  border-radius: 20px;
+  background: #f8f8f2;
+}
