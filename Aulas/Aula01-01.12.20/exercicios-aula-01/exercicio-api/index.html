@@ -2,89 +2,31 @@
 <html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <title>Exercicio da API</title>
 </head>
 
 <body>
-  <ul class="product-list">
-    <li>
-      <div class="item-card">
-        <div>
-          <img src="./assets/note01-samsung-160-160.jpg" alt="produto" id="image" />
-        </div>
 
-        <div>
-          <p>
-            Notebook Samsung, Intel® Core™ i7, 16GB RAM...
-          </p>
-          <p>Qtd: 1 R$ <span>7.158,21</span> </p>
-        </div>
+  <div class="container">
+    <ul class='product-list'></ul>
+
+    <footer class="container__footer">
+      <div class="container__total">
       </div>
-    </li>
-
-    <li>
-      <div class="item-card">
-        <div>
-          <img src="./assets/note-gamer-acer-160-160.jpg" alt="produto" id="image" />
-        </div>
-
-        <div>
-          <p>
-            Notebook Samsung, Intel® Core™ i7, 16GB RAM...
-          </p>
-          <p>Qtd: 1 R$ <span>7.158,21</span> </p>
-        </div>
-      </div>
-    </li>
-
-    <li>
-      <div class="item-card">
-        <div>
-          <img src="./assets/impressora-canon-160-160.jpg" alt="produto" id="image" />
-        </div>
-
-        <div>
-          <p>
-            Notebook Samsung, Intel® Core™ i7, 16GB RAM...
-          </p>
-          <p>Qtd: 1 R$ <span>7.158,21</span> </p>
-        </div>
-      </div>
-    </li>
-
-    <li>
-      <div class="item-card">
-        <div>
-          <img src="./assets/note02-samsung-160-160.jpg" alt="produto" id="image" />
-        </div>
-
-        <div>
-          <p>
-            Notebook Samsung, Intel® Core™ i7, 16GB RAM...
-          </p>
-          <p>Qtd: 1 R$ <span>7.158,21</span> </p>
-        </div>
-      </div>
-    </li>
-
-
-
-  </ul>
-
-
-
-  <script src="./index.js" type="module"></script>
+      <a class="container__finalizar" href="/checkout">FINALIZAR COMPRA</a>
+    </footer>
+  </div>
+  <script src='index.js' type="module"></script>
 </body>
 
 </html>
 
 <!-- 
 
-//Neste exercício você deve imprimir na UL ".product-list" produtos seguindo o layout no README 
-//do gitbub: https://i.imgur.com/EbVlWpX.png
+//Neste exercício você deve imprimir na UL ".product-list" produtos seguindo o layout no README do gitbub: https://i.imgur.com/EbVlWpX.png
 //Deve incluir a soma dos produtos
 //O botão finalizar compra deve ter o href de "/checkout"
 
