@@ -5,11 +5,7 @@
 
 const eplusDevList = ['Parça', 'Galego', 'Xará', 'Baqueta', 'Na', 'Lindo', 'Pablito', 'Bahia']
 
-function listDevs(list) {
+listDevs = list => { console.log(list) }
 
-}
-
-listDevs(eplusDevList)
-
-
+eplusDevList.forEach(listDevs)
 

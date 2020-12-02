@@ -1,6 +1,7 @@
 //exercicio 02
+
 //a função deve retornar o nome do pai de acordo com o nome de seu filho passado no segundo parâmetro 
-//Exemplo: passei Clarice, deve retornar Marcos Maia
+//Exemplo: passei Pedro, deve retornar João Paulo
 
 const parentList = [
     {
@@ -26,11 +27,12 @@ const parentList = [
 
 ]
 
-function getParent(list, children) {
-    return
-}
+getParent = (list, children) => list.find(parent => parent.children == children).name
 
+
+//Testando
 const parent = getParent(parentList, 'Pedro')
 
-console.log(parent)
+console.log(parent)//João Paulo
+
 
