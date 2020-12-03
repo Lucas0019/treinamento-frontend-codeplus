@@ -1,12 +1,19 @@
+//Importando a API
 import api from './api.js'
 
-function printProducts({ item }) {
-  const $productList = document.querySelector('.product-list');
-  const $comprasTotal = document.querySelector('.container__total');
 
+// Função para criar um <li></li> no produto
+function printProducts({ item }) {
+  const $listaProdutos = document.querySelector('.product-list');
+  const $valorTotal = document.querySelector('.container__total');
+
+
+  //Buscando na products.json
   item.forEach(({ name, image, quantity, bestPriceFormated }) => {
-    const products = document.createElement('li');
-    products.innerHTML = `
+
+    //O createElement() cria o elemento HTML especificado 
+    const produtos = document.createElement('li');
+    produtos.innerHTML = `
       <div class="product-item">
         <picture>
           <img src="${image}"/>
@@ -26,20 +33,26 @@ function printProducts({ item }) {
         </div>
       </div>
     `;
-    $productList.appendChild(products);
+
+    //Adiciona um nó ao final da lista de filhos de um nó pai especificado
+    $listaProdutos.appendChild(produtos);
   });
 
+
+  //Calculando o valor final
   const totalPrice = (item.reduce((acc, { bestPrice, quantity }) => acc + (bestPrice * quantity), 0) / 100).toLocaleString('pt-BR', { style: "currency", currency: "BRL", minimumFractionDigits: 2 });
-  $comprasTotal.innerHTML = `Total do pedido: <span>${totalPrice}</span>`;
+
+  $valorTotal.innerHTML = `Total do pedido: <span>${totalPrice}</span>`;
 }
 
+
+// Configurando para coletar as informações do arquivo JSON
 const config = {
   method: 'GET',
   url: 'products.json',
   data: null,
 }
 
+
 api(config, printProducts);
-//Neste exercício você deve imprimir na UL ".product-list" produtos seguindo o layout no README do gitbub: https://i.imgur.com/EbVlWpX.png
-//Deve incluir a soma dos produtos
-//O botão finalizar compra deve ter o href de "/checkout"
+
