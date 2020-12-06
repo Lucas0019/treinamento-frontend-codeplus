@@ -7,10 +7,10 @@
 </div>
 
 <h1 align="center">
-    Treinamento Front end - Code Plus 2020/2021
+    Treinamento Front end - Code Plus 2020/2021 ☕
 </h1>
 
-### Treinamento com foco em plataformas de e-commerce
+### Treinamento com foco em plataformas de e-commerce 
 
 - **Status do Repositório:** Em Desenvolvimento
 
