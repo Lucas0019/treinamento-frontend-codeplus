@@ -13,6 +13,7 @@
 ### Treinamento com foco em plataformas de e-commerce 
 
 - **Status do Repositório:** Em Desenvolvimento
+- **[Anotações de Aulas - Notion](https://www.notion.so/lucas0019/Notas-de-Aulas-ba8d1147876342ecbb4c122785df88fe)** 📕
 
 ---
 
