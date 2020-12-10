@@ -1,7 +1,7 @@
 #  SASS 
 
 
-## ⭐️ Por que?
+## 🧐️ Por que?
 
 - [x]  Simplificar e Organizar CSS
 - [ ]  Manutenção
@@ -10,7 +10,7 @@
 - [ ]  Programar: Variáveis, Funções, Repetições, IF/Else ...
 
 
-## 🙇🏽‍♂️ O que é?
+## 🤔 O que é?
 
 - ✅ "Syntactically Awesome StyleSheets"
 - ✅ Um pré-processador CSS que irá dar poderes ao nossos estilos. 
@@ -36,3 +36,9 @@
 - [ ]  Herança `@extends`
 - [ ]  Referencing `&:hover`
 - [ ]  Fazer o arquivo ficar menor
+
+
+---
+### Fontes
+
+**[SASS Basics](https://sass-lang.com/guide)**
