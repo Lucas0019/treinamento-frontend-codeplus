@@ -1,0 +1,61 @@
+// quando colocamos o nome do arquivo com anderline antes 
+// exemplo: _base.scss , estamos falando para o SCSS não compilar esse arquivo
+//Será compilado somente quando importando 
+
+// Variáveis em SCSS/ CSS , começa com $nomeVariável : atributo
+$text-color: white;
+
+//Mixin 
+@mixin box-shadow($color) {
+    box-shadow: 3px 3px 4px 1px $color;
+}
+
+//Condicionais
+@mixin make-bold($bool) {
+    @if $bool == true {
+        font-weight: bold;
+        color: tomato;
+        
+    }
+}
+
+@mixin text-effect($val) {
+    @if $val == danger {
+        color: red
+        
+    } @else if $val == alert {
+        color:yellow;
+    } @else {
+        color: #212121;
+    }
+}
+
+
+body {
+    background: #7159c1;
+    color: $text-color;
+}
+
+//Encadeamento no CSS
+
+// .container p {
+//     color: tomato;
+// }
+
+//Encadeamento no SCSS
+.container {
+    //importando o mixin
+    @include box-shadow(rgba($text-color, 0.6));
+    width:200px;
+    height: 200px;
+    background: whitesmoke;
+
+
+    p {
+        color: yellowgreen;
+        font-size: 30px;
+        // @include make-bold(true);
+        @include text-effect(black);
+        
+    }
+}

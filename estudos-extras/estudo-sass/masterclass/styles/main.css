@@ -1,0 +1,17 @@
+body {
+  background: #7159c1;
+  color: white;
+}
+
+.container {
+  box-shadow: 3px 3px 4px 1px rgba(255, 255, 255, 0.6);
+  width: 200px;
+  height: 200px;
+  background: whitesmoke;
+}
+
+.container p {
+  color: yellowgreen;
+  font-size: 30px;
+  color: #212121;
+}
