@@ -41,7 +41,7 @@
 ---
 ### Fontes
 
-- [Aula](https://www.youtube.com/watch?v=BaI8dHUthLA&t=1024s) - Conteudo introdutório
+- [Aula](https://www.youtube.com/watch?v=BaI8dHUthLA&t=1024s) - Conteudo introdutório  até 42:12
 - [Aula](https://www.youtube.com/watch?v=BaI8dHUthLA&t=1024s) - Projeto prático
 
 **[SASS Basics](https://sass-lang.com/guide)**
