@@ -4,10 +4,10 @@
 ## 🧐️ Por que?
 
 - [x]  Simplificar e Organizar CSS
-- [ ]  Manutenção
-- [ ]  Rapidez e reuso de código
-- [ ]  Maior compatibilidade com múltiplos navegadores
-- [ ]  Programar: Variáveis, Funções, Repetições, IF/Else ...
+- [x]  Manutenção
+- [x]  Rapidez e reuso de código
+- [x]  Maior compatibilidade com múltiplos navegadores
+- [x]  Programar: Variáveis, Funções, Repetições, IF/Else ...
 
 
 ## 🤔 O que é?
@@ -31,11 +31,11 @@
 - [X]  Escopos
 - [x]  Mixins: `@mixin @include` (agrupamento de declarações que poderão ser reusadas)
 - [x]  Condicionais: `@if @else if @else`
-- [ ]  Repetições: `@for @each`
-- [ ]  Funções: `ligthen()`
-- [ ]  Herança `@extends`
-- [ ]  Referencing `&:hover`
-- [ ]  Fazer o arquivo ficar menor
+- [x]  Repetições: `@for @each`
+- [x]  Funções: `ligthen()`
+- [x]  Herança `@extends`
+- [x]  Referencing `&:hover`
+- [x]  Fazer o arquivo ficar menor
 
 
 ---

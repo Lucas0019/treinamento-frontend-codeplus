@@ -1,2 +1,47 @@
-//Repetições : for each
+//Repetições 
 
+// for 
+@for $i from 1 through 5 {
+    .text-#{$i} {
+        // font-size: 15px * $i;
+        font-family:'Fira code';
+    }
+}
+
+
+//For each
+// $colors: (color1: red, color2: blue, color3: yellow);
+
+// @each $key, $color in $colors {
+//     .#{$color}-text {color: $color;}
+//     // .#{$color}-text {color: darken($color, 10);}
+//     // .#{$color}-text {color: ligthen($color, 10);}
+// }
+
+
+
+//Herança
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    @extend .flex;
+
+    flex-direction: column;
+    height:100%;
+}
+
+
+// Referencing `&:hover`
+
+p{
+    color: tomato;
+    cursor: pointer;
+
+    &:hover {
+        color:yellowgreen;
+    }
+}
