@@ -14,6 +14,7 @@
 
 - **Status do Repositório:** Em Desenvolvimento
 - **[Anotações de Aulas - Notion](https://www.notion.so/lucas0019/Notas-de-Aulas-ba8d1147876342ecbb4c122785df88fe)** 📕
+- **[Repositório do Prjeto do Treinamento](https://github.com/Lucas0019/codeplus-base)**
 
 ---
 
