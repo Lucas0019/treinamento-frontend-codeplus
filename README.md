@@ -17,8 +17,8 @@
 - **[Repositório - Prjeto do Treinamento](https://github.com/Lucas0019/codeplus-base)**
 
 
-## Ferramenta/Software usado: [VTEX CMS](https://help.vtex.com/pt/tutorial/o-que-e-o-cms--EmO8u2WBj2W4MUQCS8262)
--- Stacks usadas: HTML, CSS (SCSS) e JavaScript
+### Ferramenta/Software usado: [VTEX CMS](https://help.vtex.com/pt/tutorial/o-que-e-o-cms--EmO8u2WBj2W4MUQCS8262)
+- Stacks usadas: HTML, CSS (SCSS) e JavaScript
 
 ---
 
