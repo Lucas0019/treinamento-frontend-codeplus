@@ -14,7 +14,11 @@
 
 - **Status do Repositório:** Em Desenvolvimento
 - **[Anotações de Aulas - Notion](https://www.notion.so/lucas0019/Notas-de-Aulas-ba8d1147876342ecbb4c122785df88fe)** 📕
-- **[Repositório do Prjeto do Treinamento](https://github.com/Lucas0019/codeplus-base)**
+- **[Repositório - Prjeto do Treinamento](https://github.com/Lucas0019/codeplus-base)**
+
+
+## Ferramenta/Software usado: [VTEX CMS](https://help.vtex.com/pt/tutorial/o-que-e-o-cms--EmO8u2WBj2W4MUQCS8262)
+-- Stacks usadas: HTML, CSS (SCSS) e JavaScript
 
 ---
 
@@ -22,10 +26,10 @@
 
 - Aula 01 - 01/12/2020 ✅
 - Aula 02 - 08/12/2020 ✅
-- Aula 03 - 15/12/2020
-- Aula 04 - 12/01/2021
-- Aula 05 - 19/01/2021
-- Aula 06 - 26/01/2021
-- Aula 07 - 02/02/2021
-- Aula 08 - 09/02/2021
-- Aula 09 - 16/02/2021
+- Aula 03 - 15/12/2020 ✅
+- Aula 04 - 12/01/2021 ✅
+- Aula 05 - 19/01/2021 ✅
+- Aula 06 - 26/01/2021 ✅
+- Aula 07 - 02/02/2021 ✅
+- Aula 08 - 09/02/2021 ✅
+- Aula 09 - 16/02/2021 ✅
